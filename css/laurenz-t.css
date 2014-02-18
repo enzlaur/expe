@@ -1,0 +1,154 @@
+@keyframes myfirst
+{
+
+}
+
+#body
+{
+	background: #014051;
+	transition: background 3s, color 2s;
+	color: #f6f3e8;
+}
+
+#body:hover
+{
+	background: #f6f3e8;
+	color: #014051;	
+}
+
+#new-topbar
+{
+	position: fixed;
+	top: 0px;
+	background: #014051;
+	width: 100%;
+	height: 50px;
+	text-align: center;
+	line-height: 28px;
+	padding-top: 10px;
+	transition: height 0.5s;
+}
+
+#new-topbar:hover
+{	
+	height: 70px;	
+}
+
+#button-submit
+{	
+	border-radius: 5px;
+	border: 0px;
+	height: 50px;
+	width: 300px;
+	background: #014051;
+	color: white;
+	transition: border-radius 2s, background 1s;
+}
+
+#button-submit:hover 
+{
+
+	border-radius: 40px;
+	border: 0px;
+
+	background: maroon;
+	color: white;
+}
+
+#button-submit:before 
+{
+
+	border-radius: 5px;
+	border: 0px;
+	height: 70px;
+	width: 300px;
+	background: maroon;
+	color: white;
+}
+
+#hiddenspace-75
+{	
+	height: 75px;
+}
+
+#hiddenspace-50
+{
+	height: 50px;
+}
+
+#hiddenspace-20
+{
+	height: 20px;
+}
+
+.left-desc
+{
+	font-size: 70px;
+	transition: relative 2s;
+}
+.left-desc:hover
+{
+	
+	left: 100px;
+	font-size: 70px;
+}
+
+
+#logo-topbar
+{
+	color: white;
+	font-family: Rockwell;
+	font-size: 24px;
+	line-height: 30px;
+}
+
+
+.input-text-rounded
+{
+	border-radius: 5px;	
+}
+
+#fname, #lname, #pass1, #pass2, #email
+{
+	background: #f6f3e8;
+	border-radius: 5px;
+	border: 0px;
+	transition: background 0.5s;
+
+}
+
+#fname:focus, #lname:focus, #pass1:focus, #pass2:focus, #email:focus
+{
+	background: white;
+}
+
+#fname:hover, #lname:hover, #pass1:hover, #pass2:hover, #email:hover
+{
+	background: white;
+}
+
+
+#sample-text
+{
+	border: 0px;
+	border-radius: 5px;
+	height: 30px;	
+}
+
+.space-right
+{
+	padding-right: 10px;
+}
+
+#title
+{
+	vertical-align: center;	
+	font-size: 5em;
+	color: #014051;
+	transition: font-size 1s;
+}
+
+#title:hover
+{	
+	font-size: 10em;	
+}
